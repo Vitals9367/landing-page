@@ -17,7 +17,7 @@ export default function Home() {
       <div className="container">
         <script
           async
-          src="https://www.googletagmanager.co m/gtag/js?id=G-R4QYTMFJYT"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MR7Q9V8LF1"
         ></script>
         <script>
           {`
@@ -25,7 +25,7 @@ export default function Home() {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-R4QYTMFJYT');
+              gtag('config', 'G-MR7Q9V8LF1');
           `}
         </script>
       </div>
