@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { InlineWidget } from "react-calendly";
+import { useEffect } from "react";
 
 export default function GetStarted() {
 

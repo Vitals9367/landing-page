@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import GradientWrapper from "../components/GradientWrapper";
 import CTA from "../components/ui/CTA";
 import Solutions from "../components/ui/Solutions";
