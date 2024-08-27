@@ -12,8 +12,8 @@ export const config = {
         }
     ],
     navigation: [
-        { title: "Solutions", path: "#solutions" },
-        // { title: "Testimonials", path: "#testimonials" },
+        { title: "Solutions", path: "/#solutions" },
+        { title: "Blog", path: "https://blog.hyperionaiagency.com" }
     ],
     cto: {
         text: "Book Discovery Call",
