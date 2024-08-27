@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.hyperionaiagency.com
+
+# Sitemaps
+Sitemap: https://www.hyperionaiagency.com/sitemap.xml
