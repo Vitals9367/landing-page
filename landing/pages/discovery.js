@@ -3,6 +3,15 @@ import { InlineWidget } from "react-calendly";
 
 export default function GetStarted() {
 
+  useEffect(() => {
+    ReactGA.initialize('G-MR7Q9V8LF1');
+    ReactGA.send({
+      hitType: "pageview",
+      page: "/discovery",
+      title: "Discovery"
+    })
+}, [])
+
   return (
     <>
       <Head>

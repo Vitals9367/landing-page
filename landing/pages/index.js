@@ -10,26 +10,26 @@ import ToolKit from "../components/ui/ToolKit";
 import Script from "next/script";
 import ProblemStatement from "../components/ui/ProblemStatement";
 import ValueProposition from "../components/ui/ValueProposition";
+import ReactGA from 'react-ga4';
 
 export default function Home() {
+  ReactGA.initialize('G-MR7Q9V8LF1');
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/",
+    title: "Home"
+  })
+
+  useEffect(() => {
+      ReactGA.initialize('G-MR7Q9V8LF1');
+      ReactGA.send({
+        hitType: "pageview",
+        page: "/",
+        title: "Home"
+      })
+  }, [])
   return (
     <>
-      <div className="container">
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-MR7Q9V8LF1"
-        ></script>
-        <script>
-          {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-MR7Q9V8LF1');
-          `}
-        </script>
-      </div>
-
       <Head>
         <meta name="robots" content="index" />
       </Head>
